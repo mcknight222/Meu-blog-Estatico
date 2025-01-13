@@ -1,0 +1,39 @@
+/* Folhas de estilo do tema / template do site. */
+
+/* Importa FontAwe*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+/* Definições de estilo */
+:root {
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --tamanho-da-fonte: 16px;
+    --cor-do-fundo: #d7d7d7;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body, #wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte-padrao);
+    font-size: var(--tamanho-da-fonte);
+}
+
+body {
+    background-color: var(--cor-do-fundo);
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
